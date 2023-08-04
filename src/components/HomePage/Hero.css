@@ -1,0 +1,27 @@
+.blob-video-wrapper{
+    overflow: hidden;
+    animation: biani 4.5s linear infinite alternate;
+    width: 95%;
+    height: 100%;
+}
+
+.blob-video{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0px 20px rgba(36 , 39,37,0.3);
+}
+
+@keyframes biani{
+    0%{
+        border-radius: 48% 52% 57% 43% / 34% 44% 56% 66%;
+    }
+    25%{
+        border-radius: 62% 38% 64% 36% / 34% 55% 45% 66%;
+    }
+    50%{
+        border-radius: 43% 57% 51% 49% / 33% 42% 58% 67%;
+    }
+    100%{
+        border-radius: 48% 60% 43% 57% / 52% 32% 68% 48%;
+    }
+}

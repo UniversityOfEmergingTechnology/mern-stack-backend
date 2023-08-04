@@ -1,0 +1,22 @@
+.faq-enter{
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 500ms ease-in-out , max-height 500ms ease-in-out;
+}
+
+.faq-enter-active {
+    opacity: 1;
+    max-height: 300px;
+}
+
+.faq-exit{
+    opacity: 1;
+    max-height: 300px;
+}
+.faq-exit-active{
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 500ms ease-in-out , max-height 500ms ease-in-out;
+}

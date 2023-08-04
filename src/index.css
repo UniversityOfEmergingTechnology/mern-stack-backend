@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  user-select: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* #140342 */
+/* This will change the scrollbar for the whole page */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f5f5f5; /* for Firefox */
+}
+
+/* For Chrome, Safari, and Opera  */
+html::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #f5f5f5; 
+}
+ 
+html::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('../public/font/GTWalsheimPro-Black.woff2') format('woff2');
+  }
+@font-face {
+    font-family: 'GT Walsheim Medium';
+    src: url('../public/font/GTWalsheimPro-Medium.woff2') format('woff2');
+  }
+@font-face {
+    font-family: 'GT Walsheim Regular';
+    src: url('../public/font/GTWalsheimPro-RegularOblique.woff2') format('woff2');
+  }
+@font-face {
+    font-family: 'GT Walsheim Condensed';
+    src: url('../public/font/GTWalsheimPro-CondensedBold.woff2') format('woff2');
+  }
+

@@ -1,0 +1,14 @@
+.wave-container{
+    position: relative;
+    height: 280px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wave-container img{
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    overflow: hidden;
+}
